@@ -1,0 +1,29 @@
+# 系统开启debug
+debug: true
+
+logging:
+  # 设置输出日志
+  file:
+    name: server.log
+  # 滚动日志存储
+  logback:
+    rollingpolicy:
+      max-file-size: 4KB
+      file-name-pattern: server.%d{yyyy-MM-dd}.%i.log
+  # 输出格式设置
+  pattern:
+    console: "%d - %m %n"
+  # 设置分组
+  group:
+    ebank: com.example.springboot_quick_starter.Controller, com.example.springboot_quick_starter.Server
+    iservice: com.alibaba
+  level:
+    root: info  # 整体info模式
+    ebank: debug # ebank组
+    # 设置某个包的日志级别
+    com.example.springboot_quick_starter.Controller: debug
+
+
+
+server:
+  port: 80

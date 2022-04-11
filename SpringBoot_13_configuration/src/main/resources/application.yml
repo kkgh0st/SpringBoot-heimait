@@ -1,0 +1,11 @@
+servers:
+  ipAddress: 192.168.0.1
+  port: 222
+  timeout: 10000
+  serverTime: 4
+  datasize: 10
+  password: 0187
+
+datasource:
+  driver-class-name: com.mysql.jdbc.Driver456
+  password: 0187

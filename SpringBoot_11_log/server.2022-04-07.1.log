@@ -1,0 +1,27 @@
+2022-04-07 22:35:58.454  INFO 24276 --- [http-nio-80-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-07 22:35:58.457  INFO 24276 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-07 22:35:58.457 DEBUG 24276 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-04-07 22:35:58.457 DEBUG 24276 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-04-07 22:35:58.457 DEBUG 24276 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-04-07 22:35:58.460 DEBUG 24276 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3a104ec1
+2022-04-07 22:35:58.460 DEBUG 24276 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6473dfea
+2022-04-07 22:35:58.460 DEBUG 24276 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-04-07 22:35:58.460  INFO 24276 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-04-07 22:35:58.466 DEBUG 24276 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/books", parameters={}
+2022-04-07 22:35:58.470 DEBUG 24276 --- [http-nio-80-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.springboot_quick_starter.Controller.BookController#GetById()
+2022-04-07 22:35:58.475 DEBUG 24276 --- [http-nio-80-exec-2] c.e.s.Controller.BookController          : debug...
+2022-04-07 22:35:58.475  INFO 24276 --- [http-nio-80-exec-2] c.e.s.Controller.BookController          : info...
+2022-04-07 22:35:58.475  WARN 24276 --- [http-nio-80-exec-2] c.e.s.Controller.BookController          : warn...
+2022-04-07 22:35:58.475 ERROR 24276 --- [http-nio-80-exec-2] c.e.s.Controller.BookController          : error...
+2022-04-07 22:35:58.484 DEBUG 24276 --- [http-nio-80-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2022-04-07 22:35:58.485 DEBUG 24276 --- [http-nio-80-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing ["SpringBoot is running!"]
+2022-04-07 22:35:58.492 DEBUG 24276 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-04-07 22:36:00.138 DEBUG 24276 --- [http-nio-80-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/books", parameters={}
+2022-04-07 22:36:00.138 DEBUG 24276 --- [http-nio-80-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.springboot_quick_starter.Controller.BookController#GetById()
+2022-04-07 22:36:00.139 DEBUG 24276 --- [http-nio-80-exec-3] c.e.s.Controller.BookController          : debug...
+2022-04-07 22:36:00.139  INFO 24276 --- [http-nio-80-exec-3] c.e.s.Controller.BookController          : info...
+2022-04-07 22:36:00.139  WARN 24276 --- [http-nio-80-exec-3] c.e.s.Controller.BookController          : warn...
+2022-04-07 22:36:00.139 ERROR 24276 --- [http-nio-80-exec-3] c.e.s.Controller.BookController          : error...
+2022-04-07 22:36:00.139 DEBUG 24276 --- [http-nio-80-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2022-04-07 22:36:00.140 DEBUG 24276 --- [http-nio-80-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing ["SpringBoot is running!"]
+2022-04-07 22:36:00.140 DEBUG 24276 --- [http-nio-80-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
