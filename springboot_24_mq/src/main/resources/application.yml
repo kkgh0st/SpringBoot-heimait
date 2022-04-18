@@ -1,0 +1,33 @@
+server:
+  port: 81
+
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    enabled-by-default: true
+
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8080
+  #  activemq:
+  #    broker-url: tcp://localhost:61616
+  jms:
+    template:
+      default-destination: itheima
+    pub-sub-domain: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: order
+
